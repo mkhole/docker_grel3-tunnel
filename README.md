@@ -21,7 +21,7 @@ docker run \
     --env-file ./env.file \
     -v /lib/modules:/lib/modules:ro \
     -d --privileged \
-    grel3-tunnel
+    mkhole/grel3-tunnel
 ```
 
 ## How to attach a living container
